@@ -1,0 +1,175 @@
+baseURL: https://jamnagar-psychiatrist.github.io/
+languageCode: en-us
+title: Jamnagar Psychiatrist
+theme: hugo-fresh
+googleAnalytics: # Put in your tracking code without quotes like this: UA-XXXXXX...
+# Disables warnings
+disableKinds:
+- taxonomy
+- taxonomyTerm
+markup:
+  goldmark:
+    renderer:
+      unsafe: true # Allows you to write raw html in your md files
+
+params:
+  # Open graph allows easy social sharing. If you don't want it you can set it to false or just delete the variable
+  openGraph: true
+  # Used as meta data; describe your site to make Google Bots happy
+  description:
+  navbarlogo:
+  # Logo (from static/images/logos/___)
+    # image: logos/fresh.svg
+    image: human-head-profile-and-psychology-symbol-vector.jpg
+    link: /
+  font:
+    name: "Open Sans"
+    sizes: [400,600]
+  hero:
+    # Main hero title
+    title: Samvedana Hospital.
+    # Hero subtitle (optional)
+    subtitle: Best Psychiatrist in the world  😎 
+    # Button text
+    buttontext: Get started
+    # Where the main hero button links to
+    buttonlink: "/posts/bapu-post"
+    # Hero image (from static/images/___)
+    # image: illustrations/worker.svg
+    image: hitarth-cover-2.jpg
+    # Footer logos (from static/images/logos/clients/___.svg)
+    # clientlogos:
+    # - nirmal.png
+    # - tribe
+    # - kromo
+    # - infinite
+    # - gutwork
+  # Customizable navbar. For a dropdown, add a "sublinks" list.
+  navbar:
+  - title: About
+    url: /
+  - title: Specialities
+    url: /
+  - title: Contact Us
+    url: /
+  
+  section1:
+    title: Great power comes
+    subtitle: with great responsibility
+    tiles:
+    - title: EEG
+      icon: mouse-globe
+      text: Electroencephalography, Special investigation to rule out underlying cerebral electrical activity. Useful for epilepsy and many Psychiatric disorder include drug intoxication
+      url: /
+      buttonText: Come
+    - title: ECT
+      icon: laptop-cloud
+      text: |
+        Electro convulsive therapy with rapid ultra short wave brief pulse machine.
+
+        Useful for acute and chronic mental illnesses. We have anaesthetic team for short general anesthesia to provide better and Ultimate care to our Patients.
+      url: /
+      buttonText: Come
+    - title: Counselling and Psychotherapy
+      icon: plug-cloud
+      text: |
+        We have approved clinical psychologist for counselling providing
+
+        Cognitive behaviour therapy
+
+        Dialectical behaviour therapy
+
+        Short term dynamic psychotherapy
+
+        Behavioural therapy like exposure and response prevention
+
+        Couple counselling for interpersonal relationship issue
+
+        Family counselling
+      url: /
+      buttonText: Get started
+  section2:
+    title: De Addiction Service
+    subtitle: We got to do it
+    features:
+    - title: Behavioral Addiction
+      text: like gambling, pornography, internet addiction.
+      # Icon (from /images/illustrations/icons/___.svg)
+      icon: laptop-globe
+    - title: Substances Addiction
+      text: like Tobacco, Cannabis( charas and bhang), cocaine, heroin and other morphine group addiction( deda and afim), alcohol, alprazolam and Clonazepam, spasmoproxyone, codeine syrup addiction management.
+      icon: doc-sync
+  section3:
+    title: Indoor Facility and Laboratory
+    subtitle: We have general ward, semi special, special, and deluxe rooms for better n proper Patient's care and management
+    image: illustrations/mockups/app-mockup.png
+    buttonText: Get started
+    buttonLink: "#"
+  section4:
+    title: WHY CHOOSE DEEP HOSPITAL!
+    subtitle: Lorem ipsum sit dolor amet is a dummy text used by typography industry
+    clients:
+    - name: CONSULTATION EXPERT
+      quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
+      job: Accountant
+      img: 1
+    - name: INDOOR FACILITIES
+      quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
+      job: Financial Analyst
+      img: 2
+    - name: 24X7
+      quote: PSYCHIATRIC ICU
+      job: HR Manager
+      img: 3
+  section5: true
+  footer:
+    # Logo (from /images/logos/___)
+    logo: fresh-white-alt.svg
+    # Social Media Title
+    socialmediatitle: Follow Us
+    # Social media links (GitHub, Twitter, etc.). All are optional.
+    socialmedia:
+    # - link: https://github.com/lucperkins/github-fresh
+    #   # Icons are from Font Awesome
+    #   icon: github
+    # - link: https://dribbble.com/#
+    #   icon: dribbble
+    - link: https://www.facebook.com/hitarth.raja
+      icon: facebook
+    - link: https://twitter.com/hitarth
+      icon: twitter
+    # - link: https://bitbucket.org/#
+    #   icon: bitbucket
+    bulmalogo: false
+    quicklinks:
+      column1:
+        title: "Product"
+        links:
+        - text: Discover features
+          link: /
+        - text: Why choose our product?
+          link: /
+        - text: Compare features
+          link: /
+        - text: Our roadmap
+          link: /
+        - text: AGB
+          link: /agb
+      column2:
+        title: "Docs"
+        links:
+        - text: Get started
+          link: /
+        - text: User guides
+          link: /
+        - text: Admin guide
+          link: /
+        - text: Developers
+          link: /
+      column3:
+        title: "Blog"
+        links:
+        - text: Latest news
+          link: /blog/first
+        - text: Tech articles
+          link: /blog/second
